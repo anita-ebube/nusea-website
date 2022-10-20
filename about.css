@@ -1,0 +1,163 @@
+.header-2 {
+	min-height: 100vh;
+}
+
+.header-2 .header-2-content {
+	margin-top: 10rem;
+}
+
+.header-2 .nav-2 {
+	padding-top: 7rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.more-links,
+.more-links a {
+	color: var(--green-primary);
+	gap: 3rem;
+	/* border:solid 1px black; */
+	
+}
+.more-links a i{
+	cursor: pointer;
+	border:solid 1px black;
+}
+.header-2 .container h1 {
+	color: var(--dark);
+}
+
+.header-2 .nav-2 p {
+	width: 50%;
+}
+
+.big-btn {
+	margin-top: 10rem;
+	border: 2px solid var(--dark);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--dark);
+	border-radius: 6rem;
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.big-btn > div {
+	position: relative;
+	padding: 0 3rem;
+}
+
+.big-btn > div:after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 15%;
+	width: 5px;
+	height: 70%;
+	border-right: 2px solid var(--dark);
+}
+
+.big-btn > div:last-child:after {
+	display: none;
+}
+
+.big-btn span {
+	display: inline-block;
+	font-size: var(--h2-size);
+	text-align: center;
+}
+
+.big-btn p {
+	font-size: 1.2rem;
+	width: 50%;
+	/* text-align: center; */
+	margin: 0 auto;
+}
+
+/* our-story */
+.our-story {
+	padding: var(--pg);
+}
+
+.our-story .container {
+	width: 95%;
+	max-width: none;
+}
+
+.our-story .content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--green-primary);
+	color: var(--white);
+	padding: 0 6rem 6rem;
+	position: relative;
+}
+
+.our-story .content .text-1 {
+	position: absolute;
+	width: 40%;
+	top: 20%;
+	right:17%;
+	padding: 1rem;
+}
+.our-story .content .text-1 p{
+	font-size: 20px;
+}
+
+.our-story .content .text-1 h2 {
+	margin-bottom: 3rem;
+}
+
+.mission {
+	padding: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mission .text-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.mission .text-2 p {
+	width: 50%;
+}
+
+.mission .logo-img {
+	width: 300px; 
+	height:400px;
+}
+
+/* big=img */
+
+.big-img {
+	padding: var(--pg);
+	width: 100%;
+}
+
+.big-img img {
+	width: 100%;
+}
+
+/* core-values */
+.core-values {
+	padding: var(--pg);
+}
+
+.core-values h3 {
+	font-size: var(--h2-size);
+	margin-bottom: 3rem;
+}
+
+/* the team */
+
+.wrapper > div {
+	text-align: center;
+}

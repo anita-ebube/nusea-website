@@ -1,0 +1,212 @@
+.header-2 {
+	min-height: 0;
+}
+
+main {
+	margin: 6rem 0;
+	padding: var(--pg);
+}
+
+main .container .text {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+main .container .text a {
+	padding: 0 0.2rem 0.3rem;
+}
+
+main .container .text a:hover {
+	border-bottom: 1px solid var(--green-primary);
+}
+
+main .container h1 {
+	font-size: var(--h2-size);
+	width: 20%;
+}
+
+main .container .text a {
+	display: inline-block;
+	padding-inline: 1rem;
+}
+
+main .container .text a:first-child {
+	padding-left: 0;
+	border-right: 2px solid var(--dark);
+}
+
+.opportunities {
+	padding: var(--pg);
+	padding-bottom: 150px;
+}
+
+.opportunities .head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 3rem;
+	border-bottom: 2px solid var(--dark);
+	margin-bottom: 3rem;
+}
+
+.opportunities .grp {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 3rem;
+}
+
+.grp > div {
+	border: 2px solid var(--dark);
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.grp > div div {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.grp > div div div {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.grp > div p {
+	width: 80%;
+}
+
+.grp > div div div a:first-child {
+	padding-inline: 1rem;
+	padding-left: 0;
+	border-right: 2px solid var(--dark);
+}
+
+/* internship */
+.internship.footer {
+	margin-top: 6rem;
+}
+
+/* contact */
+.contact-section {
+	margin-top: 2rem;
+	padding-bottom: 150px;
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 3rem;
+}
+
+.contact-grid h1 {
+	font-size: 6rem;
+}
+
+/* careers3 */
+
+.container .career3-h1 {
+	width: 100%;
+}
+
+.career3-grid {
+	margin-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+
+.career3-grid span {
+	font-size: 4rem;
+}
+
+.career3-grid p:last-child {
+	grid-column: 1/3;
+}
+
+/* department */
+/* main.container .overview h1 {
+} */
+
+.dept.header .container h1 {
+	margin-top: 30vh;
+	width: 80%;
+}
+
+.dept.container h2 {
+	text-transform: uppercase;
+	margin: 3rem 0;
+}
+
+.career-opportunities .grid-container {
+	display: grid;
+	grid-template-columns: 30% 50%;
+	justify-content: space-between;
+	gap: 3rem;
+	margin-top: 4rem;
+}
+
+.president .container div.dept-flex {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin: 5rem 0;
+}
+.president .container div.dept-flex span {
+	display: block;
+}
+
+.president .container .contact.dept-flex {
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.president .container .img-holder {
+	background-color: #3bb;
+	padding: 15rem;
+}
+
+/* gallery */
+.gallery-grid {
+	margin-top: 16rem;
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	gap: 1rem;
+}
+
+.gallery-grid div {
+	background-color: #3bb;
+	padding: 8rem;
+}
+
+.gallery-grid div.big,
+.gallery-grid div.big2 {
+	grid-column: 1/3;
+}
+
+.gallery-grid div.bigg,
+.gallery-grid div.bigg2 {
+	grid-column: 3/5;
+}
+
+.gallery-grid div.long {
+	grid-area: 2/2/4/4;
+}
+
+.gallery-grid div.long2 {
+	/* grid-column: 5/4; */
+	grid-area: 5/2/7/4;
+}
+
+/* events */
+main .container .text .event-links a:first-child {
+	padding-right: 0.2rem;
+	border-bottom: 1px solid var(--green-primary);
+}
